@@ -1,9 +1,8 @@
 ﻿using System.Windows;
+using System.Windows.Controls;
 
-namespace WpfApplication1
+namespace FlagOfSweden
 {
-    using System.Windows.Controls;
-
     public partial class FlagOfSwedenView : UserControl
     {
         public static readonly DependencyProperty NestedProperty = DependencyProperty.Register(

@@ -1,7 +1,7 @@
-﻿namespace WpfApplication1
-{
-    using System.Windows;
+﻿using System.Windows;
 
+namespace FlagOfSweden
+{
     public partial class App : Application
     {
     }

@@ -1,18 +1,21 @@
-﻿<Window x:Class="WpfApplication1.MainWindow"
+﻿<Window x:Class="FlagOfSweden.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:local="clr-namespace:WpfApplication1"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:flagOfSweden="clr-namespace:FlagOfSweden"
         Title="MainWindow"
         Width="525"
         Height="350"
         mc:Ignorable="d">
     <Grid>
-        <local:FlagOfSwedenView>
-            <local:FlagOfSwedenView.Nested>
-                <local:FlagOfSwedenView />
-            </local:FlagOfSwedenView.Nested>
-        </local:FlagOfSwedenView>
+        <flagOfSweden:FlagOfSwedenView>
+            <flagOfSweden:FlagOfSwedenView.Nested>
+                <flagOfSweden:FlagOfSwedenView />
+            </flagOfSweden:FlagOfSwedenView.Nested>
+        </flagOfSweden:FlagOfSwedenView>
     </Grid>
 </Window>
+
+
+
